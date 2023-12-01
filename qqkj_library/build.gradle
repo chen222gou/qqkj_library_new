@@ -16,6 +16,12 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -34,16 +40,20 @@ android {
     }
 }
 
-allprojects {
-    repositories {
-//        google()
-        jcenter()
+//allprojects {
+//    repositories {
+////        google()
+//        jcenter()
+//
+//        flatDir {
+//            dirs 'src/libs'
+//        }
+//
+//    }
+//}
 
-        flatDir {
-            dirs 'src/libs'
-        }
-
-    }
+repositories {
+    flatDir { dirs 'libs' }
 }
 
 dependencies {
@@ -63,10 +73,10 @@ dependencies {
     compile 'com.android.support:multidex:1.0.1'
 
     //日志监听
-    compile files('src/libs/crasheye_2.2.5.jar')
+    implementation files('libs/crasheye_2.2.5.jar')
 
     //base64
-    compile files('src/libs/BASE64Decoder.jar')
+    implementation files('libs/BASE64Decoder.jar')
 
 
     //上拉/下滑刷新布局
@@ -85,7 +95,7 @@ dependencies {
     compile 'com.journeyapps:zxing-android-embedded:3.5.0'
 
     //支付宝支付
-    compile files('src/libs/alipaySdk-20170922.jar')
+    implementation files('libs/alipaySdk-20170922.jar')
 
     //阿里上传文件
     compile 'com.aliyun.dpa:oss-android-sdk:2.4.4'
@@ -138,7 +148,7 @@ dependencies {
 
     //    compile files('src/libs/universal-image-loader-1.9.4.jar')
 }
-repositories {
-    mavenCentral()
-//    google()
-}
+//repositories {
+//    mavenCentral()
+////    google()
+//}
