@@ -57,7 +57,7 @@ repositories {
 }
 
 dependencies {
-
+    implementation fileTree(include: ['*.jar','*.aar'], dir: 'libs')
     //官方包
     implementation 'com.android.support:appcompat-v7:25+'
     implementation 'com.android.support:design:25+'
