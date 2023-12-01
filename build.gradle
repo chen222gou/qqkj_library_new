@@ -1,8 +1,15 @@
 buildscript {
     ext.kotlin_version = "1.6.10"
     repositories {
+        jcenter()
         google()
+        maven { url "https://jitpack.io" }
         mavenCentral()
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+            name 'aliyun'//一定要添加这个配置
+            allowInsecureProtocol = true
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.2.2'
@@ -12,9 +19,15 @@ buildscript {
 
 allprojects {
     repositories {
+        jcenter()
         google()
         maven { url "https://jitpack.io" }
         mavenCentral()
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+            name 'aliyun'//一定要添加这个配置
+            allowInsecureProtocol = true
+        }
     }
 }
 
