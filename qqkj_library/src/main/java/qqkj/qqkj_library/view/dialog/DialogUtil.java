@@ -1,10 +1,11 @@
 package qqkj.qqkj_library.view.dialog;
 
-import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AlertDialog;
 
 import java.lang.reflect.Field;
 
