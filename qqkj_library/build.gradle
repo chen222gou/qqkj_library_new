@@ -69,13 +69,10 @@ dependencies {
     }
 
 //    //自动布局
-//    api 'com.zhy:autolayout:1.4.5'
+    api ('com.zhy:autolayout:1.4.5'){ exclude group: 'com.android.support' }
 
     //gson解析包
-    api ('com.google.code.gson:gson:2.8.1'){
-
-        exclude group: 'com.android.support'
-    }
+    api ('com.google.code.gson:gson:2.8.1'){ exclude group: 'com.android.support' }
 
     //apk分包
 //    api 'com.android.support:multidex:1.0.1'
@@ -88,35 +85,20 @@ dependencies {
 
 
     //上拉/下滑刷新布局
-    api ('com.scwang.smartrefresh:SmartRefreshLayout:1.0.5'){
+    api ('com.scwang.smartrefresh:SmartRefreshLayout:1.0.5'){ exclude group: 'com.android.support' }
 
-        exclude group: 'com.android.support'
-    }
-
-    api ('com.scwang.smartrefresh:SmartRefreshHeader:1.0.5'){
-
-        exclude group: 'com.android.support'
-    }
+    api ('com.scwang.smartrefresh:SmartRefreshHeader:1.0.5'){ exclude group: 'com.android.support' }
 
     //网络/本地图片加载
-    api ('com.nostra13.universalimageloader:universal-image-loader:1.9.5'){
-
-        exclude group: 'com.android.support'
-    }
+    api ('com.nostra13.universalimageloader:universal-image-loader:1.9.5'){ exclude group: 'com.android.support' }
 
     //Banner
-    api ('com.xhb:xbanner:1.3.0'){
-
-        exclude group: 'com.android.support'
-    }
+    api ('com.xhb:xbanner:1.3.0'){ exclude group: 'com.android.support' }
 
     //二维码扫描
 
     //    compile files('src/libs/zxing.jar')
-    api ('com.journeyapps:zxing-android-embedded:3.5.0'){
-
-        exclude group: 'com.android.support'
-    }
+    api ('com.journeyapps:zxing-android-embedded:3.5.0'){ exclude group: 'com.android.support' }
 
     //支付宝支付
     api files('libs/alipaySdk-20170922.jar')
