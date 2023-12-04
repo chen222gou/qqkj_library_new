@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\512b6f40a275a9c389cf44fd8156764c\\jetified-SmartRefreshLayout-1.0.5\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,97,205",
+                        "endColumns": "41,107,91",
+                        "endOffsets": "92,200,292"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\512b6f40a275a9c389cf44fd8156764c\\jetified-SmartRefreshLayout-1.0.5\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,97,205",
+                        "endColumns": "41,107,91",
+                        "endOffsets": "92,200,292"
+                    }
+                }
+            ]
+        }
+    ]
+}

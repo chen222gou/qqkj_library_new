@@ -1,8 +1,9 @@
 package qqkj.qqkj_library.view.recycler.space;
 
 import android.graphics.Rect;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * RecyclerView 间距

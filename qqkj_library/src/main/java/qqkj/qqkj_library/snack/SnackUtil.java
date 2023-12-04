@@ -1,7 +1,8 @@
 package qqkj.qqkj_library.snack;
 
-import android.support.design.widget.Snackbar;
 import android.view.View;
+
+import com.google.android.material.snackbar.Snackbar;
 
 /**
  * 这个类是用来做甚的

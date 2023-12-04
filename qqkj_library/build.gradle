@@ -4,12 +4,15 @@ apply plugin: 'com.android.library'
 
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion '29.0.2'
+    namespace 'qqkj.qqkj_library'
+    compileSdkVersion 33
+
+    android {compileOptions.encoding = "utf8"
+        useLibrary 'org.apache.http.legacy'}
 
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 28
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
         vectorDrawables.useSupportLibrary =true
@@ -52,16 +55,15 @@ android {
 //    }
 //}
 
-repositories {
-    flatDir { dirs 'libs' }
-}
+//repositories {
+//    flatDir { dirs 'libs' }
+//}
 
 dependencies {
     api fileTree(include: ['*.jar','*.aar'], dir: 'libs')
     //官方包
-    api 'com.android.support:appcompat-v7:25+'
-    api 'com.android.support:design:25+'
-    api 'com.android.support:support-v4:25+'
+    api 'androidx.appcompat:appcompat:1.1.0'
+    api "com.google.android.material:material:1.10.0"
 
     //自动布局
     api 'com.zhy:autolayout:1.4.5'
@@ -73,7 +75,7 @@ dependencies {
     api 'com.android.support:multidex:1.0.1'
 
     //日志监听
-    api files('libs/crasheye_2.2.5.jar')
+    api files('libs/crasheye.jar')
 
     //base64
     api files('libs/BASE64Decoder.jar')

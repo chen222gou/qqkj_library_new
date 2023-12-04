@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="qqkj.qqkj_library" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml
+8
+9    <!-- 用于手机自带硬件计步器 -->
+10    <uses-feature
+10-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:6:5-8:35
+11        android:name="android.hardware.sensor.stepcounter"
+11-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:7:9-59
+12        android:required="true" />
+12-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:8:9-32
+13    <uses-feature
+13-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:9:5-11:35
+14        android:name="android.hardware.sensor.stepdetector"
+14-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:10:9-60
+15        android:required="true" />
+15-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:11:9-32
+16
+17    <application
+17-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:13:5-47:19
+18        android:allowBackup="true"
+18-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:14:9-35
+19        android:label="@string/app_name" >
+19-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:15:9-41
+20
+21        <!-- 支付宝支付配置Activity -->
+22        <activity
+22-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:18:9-24:20
+23            android:name="com.alipay.sdk.app.H5PayActivity"
+23-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:19:13-60
+24            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+24-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:20:13-85
+25            android:exported="false"
+25-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:21:13-37
+26            android:screenOrientation="behind"
+26-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:22:13-47
+27            android:windowSoftInputMode="adjustResize|stateHidden" >
+27-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:23:13-67
+28        </activity>
+29        <activity
+29-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:25:9-31:20
+30            android:name="com.alipay.sdk.app.H5AuthActivity"
+30-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:26:13-61
+31            android:configChanges="orientation|keyboardHidden|navigation"
+31-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:27:13-74
+32            android:exported="false"
+32-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:28:13-37
+33            android:screenOrientation="behind"
+33-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:29:13-47
+34            android:windowSoftInputMode="adjustResize|stateHidden" >
+34-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:30:13-67
+35        </activity>
+36
+37        <!-- 二维码扫描Activity -->
+38        <activity android:name="qqkj.qqkj_library.zxing.ZxingActivity" />
+38-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:34:9-56
+38-->D:\AndroidProjectsNew\qqkj_library_new\qqkj_library\src\main\AndroidManifest.xml:34:19-54
+39
+40        <!-- <provider -->
+41        <!-- android:name="android.support.v4.content.FileProvider" -->
+42        <!-- android:authorities="com.aquacity.org.provider" -->
+43        <!-- android:exported="false" -->
+44        <!-- android:grantUriPermissions="true"> -->
+45        <!-- <meta-data -->
+46        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+47        <!-- android:resource="@xml/provider_paths" /> -->
+48        <!-- </provider> -->
+49
+50    </application>
+51
+52</manifest>

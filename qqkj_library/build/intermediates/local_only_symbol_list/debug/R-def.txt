@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+drawable banner_shape_normal
+drawable banner_shape_select
+drawable qr_code_bg
+drawable scan_line
+drawable shadow
+id _barcode_view
+id _base_banner
+id _qqkj_recycler_view
+id _qqkj_smart_view
+id decode
+id decode_failed
+id decode_succeeded
+id qqkj_web_view
+id quit
+id restart_preview
+id return_scan_result
+id zxing_barcode_surface
+id zxing_viewfinder_view
+layout barcode_layout
+layout fragment_banner_layout
+layout recycler_layout
+layout webview_layout
+layout zxing_layout
+raw beep
+string app_name
+xml provider_paths
