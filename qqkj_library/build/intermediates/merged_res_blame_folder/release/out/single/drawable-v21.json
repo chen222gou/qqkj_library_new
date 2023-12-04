@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\drawable-v21\\mtrl_navigation_bar_item_background.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\1493bf78e08a1bf765031a6e4d95befb\\material-1.5.0\\res\\drawable-v21\\mtrl_navigation_bar_item_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\d2e3ed3fa79340db4e7aca095b336861\\appcompat-1.2.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2e5d87f71e508e1f3493369355731d3c\\core-1.5.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\drawable-v21\\material_cursor_drawable.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\1493bf78e08a1bf765031a6e4d95befb\\material-1.5.0\\res\\drawable-v21\\material_cursor_drawable.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\d2e3ed3fa79340db4e7aca095b336861\\appcompat-1.2.0\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\drawable-v21\\m3_tabs_background.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\1493bf78e08a1bf765031a6e4d95befb\\material-1.5.0\\res\\drawable-v21\\m3_tabs_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\d2e3ed3fa79340db4e7aca095b336861\\appcompat-1.2.0\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\d2e3ed3fa79340db4e7aca095b336861\\appcompat-1.2.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\d2e3ed3fa79340db4e7aca095b336861\\appcompat-1.2.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    }
+]

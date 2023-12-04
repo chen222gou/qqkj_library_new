@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2e5d87f71e508e1f3493369355731d3c\\core-1.5.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2e5d87f71e508e1f3493369355731d3c\\core-1.5.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2e5d87f71e508e1f3493369355731d3c\\core-1.5.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2e5d87f71e508e1f3493369355731d3c\\core-1.5.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

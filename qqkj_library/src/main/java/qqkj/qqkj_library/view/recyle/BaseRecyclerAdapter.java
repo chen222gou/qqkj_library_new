@@ -11,8 +11,6 @@ import android.widget.ListAdapter;
 import androidx.annotation.LayoutRes;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.zhy.autolayout.utils.AutoUtils;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -59,7 +57,7 @@ public abstract class BaseRecyclerAdapter<T> extends RecyclerView.Adapter<SmartV
     @Override
     public SmartViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(mLayoutId, parent, false);
-        AutoUtils.autoSize(view);
+//        AutoUtils.autoSize(view);
         return new SmartViewHolder(view,mListener);
     }
 

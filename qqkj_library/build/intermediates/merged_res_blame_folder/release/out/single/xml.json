@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge_gravity_top_start.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\1493bf78e08a1bf765031a6e4d95befb\\material-1.5.0\\res\\xml\\standalone_badge_gravity_top_start.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge_gravity_bottom_start.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\1493bf78e08a1bf765031a6e4d95befb\\material-1.5.0\\res\\xml\\standalone_badge_gravity_bottom_start.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge_gravity_bottom_end.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\1493bf78e08a1bf765031a6e4d95befb\\material-1.5.0\\res\\xml\\standalone_badge_gravity_bottom_end.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge_offset.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\1493bf78e08a1bf765031a6e4d95befb\\material-1.5.0\\res\\xml\\standalone_badge_offset.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\1493bf78e08a1bf765031a6e4d95befb\\material-1.5.0\\res\\xml\\standalone_badge.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\build\\intermediates\\res\\merged\\release\\xml\\provider_paths.xml",
+        "source": "D:\\AndroidProjectsNew\\qqkj_library_new\\qqkj_library\\src\\main\\res\\xml\\provider_paths.xml"
+    }
+]

@@ -5,8 +5,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-
-import com.zhy.autolayout.AutoLayoutActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * 这个类是用来做甚的
@@ -15,7 +14,7 @@ import com.zhy.autolayout.AutoLayoutActivity;
  * Created by 陈二狗 on 2017/11/9.
  */
 
-public abstract class PermissionActivity extends AutoLayoutActivity {
+public abstract class PermissionActivity extends AppCompatActivity {
 
     /**
      * 权限集合
