@@ -75,7 +75,7 @@ dependencies {
     api ('com.google.code.gson:gson:2.8.1'){ exclude group: 'com.android.support' }
 
     //apk分包
-//    api 'com.android.support:multidex:1.0.1'
+    api ('com.android.support:multidex:1.0.1'){ exclude group: 'com.android.support' }
 
     //日志监听
     api files('libs/crasheye.jar')
